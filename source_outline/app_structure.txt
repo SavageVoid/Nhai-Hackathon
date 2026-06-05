@@ -1,0 +1,17 @@
+mobile-app/
+  src/screens/EnrollmentScreen.tsx
+  src/screens/VerificationScreen.tsx
+  src/screens/OfflineQueueScreen.tsx
+  src/screens/BenchmarkHUD.tsx
+  src/ml/FaceDetector.ts
+  src/ml/FaceAligner.ts
+  src/ml/FaceEmbedder.ts
+  src/ml/LivenessDetector.ts
+  src/ml/DecisionEngine.ts
+  src/storage/SecureDatabase.ts
+  src/storage/EmbeddingRepository.ts
+  src/storage/EventQueueRepository.ts
+  src/sync/NetworkMonitor.ts
+  src/sync/SyncManager.ts
+  src/sync/AwsSyncClient.ts
+  src/sync/PurgeManager.ts

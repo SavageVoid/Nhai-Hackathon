@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="420" viewBox="0 0 1300 420">
+<style>.b{fill:#fff7ed;stroke:#c05621;stroke-width:2;rx:12}.t{font:700 24px Arial;fill:#222}.s{font:16px Arial;fill:#333}.a{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<text x="30" y="40" class="t">ML Verification Pipeline</text>
+<rect x="30" y="90" width="145" height="100" class="b"/><text x="55" y="130" class="s">Camera</text><text x="55" y="155" class="s">Frame</text>
+<rect x="225" y="90" width="150" height="100" class="b"/><text x="250" y="130" class="s">Face</text><text x="250" y="155" class="s">Detection</text>
+<rect x="425" y="90" width="155" height="100" class="b"/><text x="450" y="122" class="s">Quality</text><text x="450" y="147" class="s">Check</text><text x="450" y="172" class="s">Blur/Light</text>
+<rect x="630" y="90" width="150" height="100" class="b"/><text x="655" y="130" class="s">Align</text><text x="655" y="155" class="s">5 landmarks</text>
+<rect x="830" y="55" width="175" height="90" class="b"/><text x="855" y="92" class="s">MobileFaceNet</text><text x="855" y="117" class="s">128D embedding</text>
+<rect x="830" y="180" width="175" height="90" class="b"/><text x="855" y="217" class="s">MiniFASNet</text><text x="855" y="242" class="s">Passive liveness</text>
+<rect x="1055" y="90" width="190" height="100" class="b"/><text x="1080" y="122" class="s">Decision Engine</text><text x="1080" y="147" class="s">Multi-frame vote</text><text x="1080" y="172" class="s">Thresholds</text>
+<rect x="1030" y="270" width="230" height="80" class="b"/><text x="1055" y="305" class="s">Active challenge if needed</text><text x="1055" y="330" class="s">Blink / Smile / Head turn</text>
+<line x1="175" y1="140" x2="225" y2="140" class="a"/><line x1="375" y1="140" x2="425" y2="140" class="a"/><line x1="580" y1="140" x2="630" y2="140" class="a"/><line x1="780" y1="140" x2="830" y2="100" class="a"/><line x1="780" y1="140" x2="830" y2="225" class="a"/><line x1="1005" y1="100" x2="1055" y2="130" class="a"/><line x1="1005" y1="225" x2="1055" y2="155" class="a"/><line x1="1150" y1="190" x2="1150" y2="270" class="a"/>
+</svg>
