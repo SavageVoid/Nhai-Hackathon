@@ -18,7 +18,7 @@ The system is designed to verify field users on standard mobile devices without 
 ## Directory Structure
 
 *   `proposal.md` — Main technical proposal detailing the architecture, model sizes, and sync logic.
-*   `diagrams/` — Architectural SVG diagrams.
+*   `architectures n pipelines/` — Architectural SVG diagrams.
     *   `system_architecture.svg` — Device runtime boundaries and network division.
     *   `ml_pipeline.svg` — Face detection, quality assessment, and liveness steps.
     *   `sync_purge_flow.svg` — Local queue state transitions and ACK flow.
@@ -68,14 +68,14 @@ Face images are never saved to disk. Instead, the application generates a 128-di
 ### System Architecture
 The high-level boundary showing camera integration, local model execution, secure storage, and the remote backend connection:
 
-![System Architecture](diagrams/system_architecture.svg)
+![System Architecture](architectures%20n%20pipelines/system_architecture.svg)
 
 ### Machine Learning Pipeline
 The detailed flow of frame ingestion, quality estimation, alignment, parallel face recognition and liveness detection, and the decision engine rules:
 
-![ML Verification Pipeline](diagrams/ml_pipeline.svg)
+![ML Verification Pipeline](architectures%20n%20pipelines/ml_pipeline.svg)
 
 ### Offline Sync and Purge Flow
 The transactional sequence for capturing events offline, bulk sync post-connection recovery, and server-acknowledgement driven purge execution:
 
-![Offline Sync and Purge Flow](diagrams/sync_purge_flow.svg)
+![Offline Sync and Purge Flow](architectures%20n%20pipelines/sync_purge_flow.svg)
