@@ -1,4 +1,4 @@
-# Offline Biometric Authentication & Liveness Detection (Datalake 3.0)
+# Mobile Offline Facial Recognition and Liveness Detection for Datalake 3.0
 
 This repository contains the technical proposal, architecture diagrams, benchmark plans, and code outlines for the Datalake 3.0 offline facial recognition and liveness detection module.
 
